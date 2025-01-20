@@ -28,6 +28,18 @@
   font-size: 56px;
   padding-top: 16px;
   padding-bottom: 24px;
+  
+}
+.title-1{
+  font-weight: 700;
+  font-size: 40px;
+  padding-bottom: 24px;
+}
+.description{
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+  padding-bottom: 32px;
 }
 .btn{
   background-color: #006A50;
@@ -42,4 +54,63 @@
 .image{
   padding: 80px 59.99px 80px 64px;
 
+}
+/* card part */
+#card-box-part{
+  margin: 80px 160px 0px 160px;
+}
+.card-part{
+  display: flex;
+  gap: 24px;
+ 
+}
+.part-2-a{
+  background-color: rgba(84, 144, 245, 0.2);
+  border-radius: 16px;
+  padding: 32px;
+  width: 410.67px;
+  height: 325px;
+}
+.part-2-b{
+  background-color: rgba(198, 228, 214, 1);
+  border-radius: 16px;
+  padding: 32px;
+  width: 410.67px;
+  height: 325px;
+
+}
+.part-2-c{
+  background-color: rgba(247, 235, 207, 1);
+  border-radius: 16px;
+  padding: 32px;
+  width: 410.67px;
+  height: 325px;
+
+}
+
+.heading-a{
+  font-weight: 700;
+  font-size: 20px;
+  color: rgba(14, 14, 14, 0.8);
+}
+.description-a{
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+}
+.btn-a{
+  font-weight: 600;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+  border-radius: 8px;
+  padding: 11px 20px 11px 20px;
+}
+.color-1{
+  background-color: rgba(84, 144, 245, 1);
+}
+.color-2{
+  background-color: rgba(9, 161, 92, 1);
+}
+.color-3{
+  background-color: rgba(255, 194, 57, 1);
 }
