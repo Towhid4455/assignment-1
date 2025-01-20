@@ -52,6 +52,13 @@
   font-size: 18px;
   color: #FFFFFF;
 }
+.taka-1:hover{
+    background-color: #006A50;
+}
+.btn:hover, .btn-a:hover ,.btn-bag:hover ,.done:hover, .subs:hover{
+  background-color: darkgray;
+
+}
 .image{
   padding: 80px 59.99px 80px 64px;
 
@@ -241,6 +248,10 @@
   width: 252px;
   height: 128px
 }
+.color-200{
+  background-color: #C6E4D6;
+
+}
 .adone{
   text-align: center;
   
@@ -265,8 +276,59 @@
   justify-items: center;
 }
 .input{
-  width: 100%;
+  width: 95%;
   height: 50px;
-  text-align: center; 
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px; 
+  color: rgba(14, 14, 14, 0.3);
  
+}
+/* footer */
+.footer{
+  background-color: rgba(198, 228, 214, 1);
+  margin: 80px 160px 80px 160px;
+  border-radius: 24px;
+  text-align: center;
+  padding: 80px 265px 80px 265px;
+
+}
+.sub{
+  font-weight: 700;
+  font-size: 40px;
+  
+}
+.aims{
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+}
+.group{
+  display: flex;
+  justify-content: center;
+  
+}
+.we{
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+  
+}
+.email{
+  width: 95%;
+  height: 50px;
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.3);
+  padding-left: 10px;
+  border-radius:10px 0px 0px 10px;
+
+}
+.subs{
+  height: 55px;
+  font-weight: 600;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 1);
+  padding: 17px 34px 17px 34px;
+  background-color: rgba(0, 106, 80, 1);
+  border-radius:0px 10px 10px 0px ;
 }
